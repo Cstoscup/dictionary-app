@@ -21,6 +21,13 @@
   -webkit-text-fill-color: transparent;
 }
 
+.App .contact-links:hover {
+  background: -webkit-linear-gradient(#ea80fc, #38598b);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .App h1 {
   font-size: 40px;
   background: -webkit-linear-gradient(right,#38598b, #ea80fc);

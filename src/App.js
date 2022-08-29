@@ -11,7 +11,8 @@ function App() {
       <Dictionary />
       <footer className="text-center">
           <a href="https://www.linkedin.com/in/callie-stoscup-475b1683/" title="link to Callie Stoscup's linkedin" target="_blank" rel="noreferrer"><i className="fa-brands fa-linkedin fa-2x contact-links"></i></a>
-          <a href="https://github.com/Cstoscup" title="link to github" target="_blank" className="ps-2" rel="noreferrer"><i className="fa-brands fa-square-github fa-2x contact-links"></i></a>
+          <a href="https://github.com/Cstoscup" title="link to github" target="_blank" className="ps-3" rel="noreferrer"><i className="fa-brands fa-square-github fa-2x contact-links"></i></a>
+          <p>calliestoscup@gmail.com</p>
       </footer>
     </div>
   );
