@@ -5,7 +5,7 @@
 .App-logo {
   max-width: 55px;
   position: relative;
-  top: -4px;
+  top: -8px;
 }
 
 .App-header {
@@ -14,11 +14,18 @@
   margin: 20px 0;
 }
 
+.App .contact-links {
+  background: -webkit-linear-gradient(#38598b, #ea80fc);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .App h1 {
   font-size: 40px;
   background: -webkit-linear-gradient(right,#38598b, #ea80fc);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-
+  font-weight: 700;
 }
