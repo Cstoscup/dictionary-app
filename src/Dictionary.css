@@ -1,0 +1,54 @@
+section {
+    background-color: white;
+    max-width: 80%;
+    display: block;
+    margin: 30px auto;
+    border: 1px solid #665C5F;
+    border-radius: 10px;
+}
+
+.Dictionary h2 {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.Dictionary .search-bar {
+    padding: 10px 20px;
+    display: block;
+    margin: 30px auto 0;
+    width: 90%;
+    font-size: 18px;
+    color: #665C5F;
+    border: 1px solid #8D8A8B;
+    border-radius: 10px;
+}
+
+.Dictionary .hint {
+    display: block;
+    width: 90%;
+    margin: 5px auto 30px;
+    padding-left: 2px;
+    opacity: .7;
+}
+
+h3 {
+    margin: 30px 0 30px 30px;
+}
+
+.audio {
+    margin-bottom: 30px;
+}
+
+.meaning-block {
+    margin: 30px;
+}
+
+.Example {
+    opacity: .7;
+}
+
+@media (max-width: 840px) {
+    section {
+        max-width: 90%;
+    }
+}

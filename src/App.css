@@ -1,11 +1,10 @@
 .App {
   font-family: 'League Spartan', sans-serif;
+  color: #665C5F;
 }
 
 .App-logo {
   max-width: 55px;
-  position: relative;
-  top: -8px;
 }
 
 .App-header {
@@ -15,22 +14,17 @@
 }
 
 .App .contact-links {
-  background: -webkit-linear-gradient(#38598b, #ea80fc);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #8D8A8B;
 }
 
 .App .contact-links:hover {
-  background: -webkit-linear-gradient(#ea80fc, #38598b);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #665C5F;
 }
 
 .App h1 {
-  font-size: 40px;
-  background: -webkit-linear-gradient(right,#38598b, #ea80fc);
+  font-size: 30px;
+  margin: 12px 0 0 0;
+  background: -webkit-linear-gradient(right,#665C5F, #8D8A8B);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;

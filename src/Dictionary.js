@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, {useState} from "react";
-import Results from "./Results"
+import Results from "./Results";
+import "./Dictionary.css"
 
 export default function Dictionary() {
     const [keyword, setKeyword] = useState("");
@@ -23,10 +24,13 @@ export default function Dictionary() {
     
     return (
         <div className="Dictionary">
-            <form className="text-center mt-5 mb-5">
-                <input type="search" placeholder="Enter word..." className="me-3" onChange={handleChange} />
-                <input type="submit" value="Search" onClick={handleClick} />
-            </form>
+            <section>
+                <h2>What word would you like to look up?</h2>
+                <form className="text-center" onSubmit={handleClick}>
+                    <input type="search" className="search-bar" onChange={handleChange} />
+                </form>
+                <div className="hint">e.g. sunset, wine, tree, animal</div>
+            </section>
             <Results data={results} />
         </div>
     )

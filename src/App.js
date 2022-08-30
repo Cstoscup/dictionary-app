@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src="callie_logo.svg" className="App-logo" alt="logo" />
-        <h1>StosCodes</h1>
+        <h1>Callie Stoscup</h1>
       </header>
       <Dictionary />
       <footer className="text-center">
