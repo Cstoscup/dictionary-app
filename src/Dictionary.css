@@ -1,12 +1,3 @@
-section {
-    background-color: white;
-    max-width: 80%;
-    display: block;
-    margin: 30px auto;
-    border: 1px solid #665C5F;
-    border-radius: 10px;
-}
-
 .Dictionary h2 {
     margin-top: 30px;
     text-align: center;
@@ -31,16 +22,8 @@ section {
     opacity: .7;
 }
 
-h3 {
+.Dictionary h3 {
     margin: 30px 0 30px 30px;
-}
-
-.audio {
-    margin-bottom: 30px;
-}
-
-.meaning-block {
-    margin: 30px;
 }
 
 .Example {
@@ -50,5 +33,15 @@ h3 {
 @media (max-width: 840px) {
     section {
         max-width: 90%;
+    }
+}
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 20px;
+        margin: 0 5px;
+    }
+    h3 {
+        font-size: 20px;
     }
 }

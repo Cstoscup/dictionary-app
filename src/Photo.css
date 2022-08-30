@@ -1,0 +1,9 @@
+.Photo {
+    margin: 30px 18px 6px 18px;
+}
+
+.Photo img {
+    border: 1px solid #8D8A8B;
+    border-radius: 10px;
+    margin-bottom: 24px;
+}

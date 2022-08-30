@@ -5,12 +5,14 @@
 
 .App-logo {
   max-width: 55px;
+  border: none;
+  margin: 0;
 }
 
 .App-header {
   display: flex;
   justify-content: center;
-  margin: 20px 0;
+  margin: 20px 0 0 0;
 }
 
 .App .contact-links {
@@ -29,4 +31,14 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 700;
+}
+
+section {
+  background-color: white;
+  max-width: 80%;
+  display: block;
+  margin: 30px auto;
+  border: 1px solid #665C5F;
+  border-radius: 10px;
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.1);
 }
